@@ -183,18 +183,14 @@ export default function Home() {
               <Image src="/solana-logo.png" alt="Solana" width={16} height={16} style={{ borderRadius: '50%' }} /> Solana • <Image src="/pump-logo.png" alt="Pump.fun" width={16} height={16} style={{ borderRadius: '4px' }} /> Pump.fun
             </span>
           </div>
-          <div className="ca-address-wrapper">
+          <div className="ca-address-wrapper" onClick={copyCA} style={{ cursor: 'pointer' }} title="Click to copy">
             <span className="ca-address" id="ca-text">
               {CONTRACT_ADDRESS}
             </span>
+            <span style={{ fontSize: '1.1rem', opacity: copied ? 1 : 0.5, transition: 'opacity 0.2s', flexShrink: 0 }}>
+              {copied ? '✅' : '📋'}
+            </span>
           </div>
-          <button
-            className={`ca-copy-btn ${copied ? "copied" : ""}`}
-            onClick={copyCA}
-            id="copy-ca-btn"
-          >
-            {copied ? "✓ Copied!" : "📋 Copy Address"}
-          </button>
           <div style={{ marginTop: "24px" }} className="ca-links">
             <a
               href="#"

@@ -180,7 +180,7 @@ export default function Home() {
           <div className="ca-label">Contract Address</div>
           <div className="ca-chain">
             <span className="chain-badge">
-              ◎ Solana • Pump.fun
+              <Image src="/solana-logo.png" alt="Solana" width={16} height={16} style={{ borderRadius: '50%' }} /> Solana • <Image src="/pump-logo.png" alt="Pump.fun" width={16} height={16} style={{ borderRadius: '4px' }} /> Pump.fun
             </span>
           </div>
           <div className="ca-address-wrapper">
@@ -203,7 +203,7 @@ export default function Home() {
               rel="noopener noreferrer"
               id="pump-link"
             >
-              🟢 Pump.fun
+              <Image src="/pump-logo.png" alt="Pump.fun" width={18} height={18} style={{ borderRadius: '4px' }} /> Pump.fun
             </a>
             <a
               href="#"
@@ -384,7 +384,7 @@ export default function Home() {
             className="social-card"
             id="social-pump"
           >
-            <div className="social-icon pump">🟢</div>
+            <div className="social-icon pump"><Image src="/pump-logo.png" alt="Pump.fun" width={28} height={28} style={{ borderRadius: '6px' }} /></div>
             <div className="social-card-text">
               <h3>Pump.fun</h3>
               <p>Buy on Pump.fun</p>

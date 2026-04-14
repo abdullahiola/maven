@@ -187,8 +187,12 @@ export default function Home() {
             <span className="ca-address" id="ca-text">
               {CONTRACT_ADDRESS}
             </span>
-            <span style={{ fontSize: '1.1rem', opacity: copied ? 1 : 0.5, transition: 'opacity 0.2s', flexShrink: 0 }}>
-              {copied ? '✅' : '📋'}
+            <span style={{ opacity: copied ? 1 : 0.5, transition: 'opacity 0.2s', flexShrink: 0, display: 'inline-flex', alignItems: 'center' }}>
+              {copied ? (
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#22d3ee" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><polyline points="20 6 9 17 4 12" /></svg>
+              ) : (
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#94a3b8" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+              )}
             </span>
           </div>
           <div style={{ marginTop: "24px" }} className="ca-links">

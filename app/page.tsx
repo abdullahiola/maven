@@ -396,11 +396,6 @@ export default function Home() {
           />
           <span>Ruiji 瑞吉</span>
         </div>
-        <p className="footer-disclaimer">
-          $RUIJI is a meme coin with no intrinsic value or expectation of
-          financial return. This token is for entertainment purposes only. Always
-          do your own research before making any financial decisions.
-        </p>
         <p className="footer-copy">
           © 2025 Ruiji 瑞吉. All rights reserved. Built with 🤍 for the seal
           community.

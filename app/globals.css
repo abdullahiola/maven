@@ -836,9 +836,9 @@ body {
   border: 1px solid #1d9bf044;
 }
 
-.social-icon.telegram {
-  background: linear-gradient(135deg, #1a1a2e, #0088cc33);
-  border: 1px solid #0088cc44;
+.social-icon.instagram {
+  background: linear-gradient(135deg, #833ab4, #fd1d1d33);
+  border: 1px solid #e1306c44;
 }
 
 .social-icon.pump {

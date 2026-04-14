@@ -393,7 +393,7 @@ export default function Home() {
           <span>Ruiji 瑞吉</span>
         </div>
         <p className="footer-copy">
-          © 2025 Ruiji 瑞吉. All rights reserved. Built with 🤍 for the seal
+          © 2026 Ruiji 瑞吉. All rights reserved. Built with 🤍 for the seal
           community.
         </p>
       </footer>

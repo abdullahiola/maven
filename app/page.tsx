@@ -212,16 +212,7 @@ export default function Home() {
               rel="noopener noreferrer"
               id="dexscreener-link"
             >
-              📊 DexScreener
-            </a>
-            <a
-              href="#"
-              className="ca-link"
-              target="_blank"
-              rel="noopener noreferrer"
-              id="birdeye-link"
-            >
-              🦅 Birdeye
+              <Image src="/dexscreener-logo.png" alt="DexScreener" width={18} height={18} style={{ borderRadius: '4px' }} /> DexScreener
             </a>
           </div>
         </div>

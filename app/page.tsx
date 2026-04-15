@@ -342,7 +342,7 @@ export default function Home() {
             <span className="social-arrow">→</span>
           </a>
           <a
-            href="https://x.com/ruijiseal?s=21"
+            href="https://x.com/ruiji_seal1?s=21"
             target="_blank"
             rel="noopener noreferrer"
             className="social-card"

@@ -298,7 +298,7 @@ body {
   width: 8px;
   height: 8px;
   border-radius: 50%;
-  background: var(--accent-coral);
+  background: #00e676;
   animation: pulse 2s ease-in-out infinite;
 }
 
@@ -841,9 +841,9 @@ body {
   border: 1px solid #e1306c44;
 }
 
-.social-icon.pump {
-  background: linear-gradient(135deg, #1a1a2e, #00e67633);
-  border: 1px solid #00e67644;
+.social-icon.bags {
+  background: linear-gradient(135deg, #0a0a0a, #00ff5533);
+  border: 1px solid #00ff5544;
 }
 
 .social-card-text h3 {

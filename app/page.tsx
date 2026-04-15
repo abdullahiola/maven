@@ -70,7 +70,7 @@ export default function Home() {
       <nav className="navbar" id="navbar">
         <a href="#" className="navbar-brand">
           <Image
-            src="/ruiji-mascot.png"
+            src="/he.jpeg"
             alt="Ruiji 瑞吉"
             width={40}
             height={40}
@@ -136,7 +136,7 @@ export default function Home() {
           <div className="hero-text">
             <div className="hero-badge">
               <span className="pulse-dot" />
-              Live on Solana (Pump.fun)
+              Live on Solana (Bags.fm)
             </div>
             <h1 className="hero-title">
               <span className="name-en">Ruiji</span>
@@ -162,7 +162,7 @@ export default function Home() {
               <div className="mascot-glow" />
               <div className="mascot-ring" />
               <Image
-                src="/ruiji-mascot.png"
+                src="/he.jpeg"
                 alt="Ruiji the Seal"
                 width={300}
                 height={300}
@@ -180,7 +180,7 @@ export default function Home() {
           <div className="ca-label">Contract Address</div>
           <div className="ca-chain">
             <span className="chain-badge">
-              <Image src="/solana-logo.png" alt="Solana" width={16} height={16} style={{ borderRadius: '50%' }} /> Solana • <Image src="/pump-logo.png" alt="Pump.fun" width={16} height={16} style={{ borderRadius: '4px' }} /> Pump.fun
+              <Image src="/solana-logo.png" alt="Solana" width={16} height={16} style={{ borderRadius: '50%' }} /> Solana • <Image src="/bags-logo.png" alt="Bags.fm" width={16} height={16} style={{ borderRadius: '4px' }} /> Bags.fm
             </span>
           </div>
           <div className="ca-address-wrapper" onClick={copyCA} style={{ cursor: 'pointer' }} title="Click to copy">
@@ -201,9 +201,9 @@ export default function Home() {
               className="ca-link"
               target="_blank"
               rel="noopener noreferrer"
-              id="pump-link"
+              id="bags-link"
             >
-              <Image src="/pump-logo.png" alt="Pump.fun" width={18} height={18} style={{ borderRadius: '4px' }} /> Pump.fun
+              <Image src="/bags-logo.png" alt="Bags.fm" width={18} height={18} style={{ borderRadius: '4px' }} /> Bags.fm
             </a>
             <a
               href="#"
@@ -265,7 +265,7 @@ export default function Home() {
           <div className="section-label">Tokenomics</div>
           <h2 className="section-title">$RUIJI on Solana</h2>
           <p className="section-subtitle">
-            Launched on Pump.fun — community-driven, no presale, LP burned.
+            Launched on Bags.fm — community-driven, no presale, LP burned.
           </p>
         </div>
         <div className="tokenomics-grid">
@@ -301,7 +301,7 @@ export default function Home() {
                 controls
                 playsInline
                 preload="metadata"
-                poster="/ruiji-mascot.png"
+                poster="/he.jpeg"
                 id="ruiji-video-1"
               >
                 <source src="/videos/ruiji-clip.mp4" type="video/mp4" />
@@ -373,12 +373,12 @@ export default function Home() {
             target="_blank"
             rel="noopener noreferrer"
             className="social-card"
-            id="social-pump"
+            id="social-bags"
           >
-            <div className="social-icon pump"><Image src="/pump-logo.png" alt="Pump.fun" width={28} height={28} style={{ borderRadius: '6px' }} /></div>
+            <div className="social-icon bags"><Image src="/bags-logo.png" alt="Bags.fm" width={28} height={28} style={{ borderRadius: '6px' }} /></div>
             <div className="social-card-text">
-              <h3>Pump.fun</h3>
-              <p>Buy on Pump.fun</p>
+              <h3>Bags.fm</h3>
+              <p>Buy on Bags.fm</p>
             </div>
             <span className="social-arrow">→</span>
           </a>
@@ -389,7 +389,7 @@ export default function Home() {
       <footer className="footer" id="footer">
         <div className="footer-brand">
           <Image
-            src="/ruiji-mascot.png"
+            src="/he.jpeg"
             alt="Ruiji"
             width={32}
             height={32}

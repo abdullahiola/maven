@@ -3,7 +3,7 @@
 import { useState, useEffect, useRef } from "react";
 import Image from "next/image";
 
-const CONTRACT_ADDRESS = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
+const CONTRACT_ADDRESS = "KNANiTVBP8RBwAz7FpE4Bz8Bc8sz1xSNKXbqXVNBAGS";
 
 interface Bubble {
   id: number;

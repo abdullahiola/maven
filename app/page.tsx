@@ -342,7 +342,7 @@ export default function Home() {
             <span className="social-arrow">→</span>
           </a>
           <a
-            href="#"
+            href="https://x.com/ruijiseal?s=21"
             target="_blank"
             rel="noopener noreferrer"
             className="social-card"
@@ -356,7 +356,7 @@ export default function Home() {
             <span className="social-arrow">→</span>
           </a>
           <a
-            href="#"
+            href="https://www.instagram.com/seal_2028?igsh=YzFpYmFnZzk0b2tt"
             target="_blank"
             rel="noopener noreferrer"
             className="social-card"

@@ -177,6 +177,8 @@ body {
   border-radius: 50%;
   border: 2px solid var(--ocean-glow);
   box-shadow: 0 0 12px rgba(34, 211, 238, 0.3);
+  object-fit: cover;
+  object-position: center 35%;
 }
 
 .navbar-brand span {
@@ -933,6 +935,8 @@ body {
   width: 32px;
   height: 32px;
   border-radius: 50%;
+  object-fit: cover;
+  object-position: center 35%;
 }
 
 .footer-brand span {

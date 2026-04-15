@@ -70,10 +70,11 @@ export default function Home() {
       <nav className="navbar" id="navbar">
         <a href="#" className="navbar-brand">
           <Image
-            src="/he.jpeg"
+            src="/reij.png"
             alt="Ruiji 瑞吉"
             width={40}
             height={40}
+            style={{ objectFit: 'cover', objectPosition: 'center 35%', borderRadius: '50%' }}
           />
           <span>Ruiji 瑞吉</span>
         </a>
@@ -162,7 +163,7 @@ export default function Home() {
               <div className="mascot-glow" />
               <div className="mascot-ring" />
               <Image
-                src="/he.jpeg"
+                src="/reij.png"
                 alt="Ruiji the Seal"
                 width={300}
                 height={300}
@@ -301,7 +302,7 @@ export default function Home() {
                 controls
                 playsInline
                 preload="metadata"
-                poster="/he.jpeg"
+                poster="/reij.png"
                 id="ruiji-video-1"
               >
                 <source src="/videos/ruiji-clip.mp4" type="video/mp4" />
@@ -389,10 +390,11 @@ export default function Home() {
       <footer className="footer" id="footer">
         <div className="footer-brand">
           <Image
-            src="/he.jpeg"
+            src="/reij.png"
             alt="Ruiji"
             width={32}
             height={32}
+            style={{ objectFit: 'cover', objectPosition: 'center 35%', borderRadius: '50%' }}
           />
           <span>Ruiji 瑞吉</span>
         </div>
